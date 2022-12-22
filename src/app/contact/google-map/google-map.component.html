@@ -1,0 +1,7 @@
+<div class="container">
+    <div style="margin-top: 6rem; margin-bottom: 2rem;">
+        <google-map height="400px" width="100%" [center]="center" [zoom]="zoom" (mapClick)="moveMap($event)"
+            (mapMousemove)="move($event)">
+        </google-map>
+    </div>
+</div>

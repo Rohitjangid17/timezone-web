@@ -1,0 +1,45 @@
+.container h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+}
+
+#products .container p {
+    color: #777777;
+}
+
+.container .row .col-lg-4 .card {
+    border-radius: 20px;
+}
+
+#products .container .row .col-lg-4 .card img {
+    height: 20rem;
+    border-radius: 30px;
+}
+
+.container .row .col-lg-4 .card img:hover {
+    animation: zoom-in-out 1s ease;
+}
+
+.container .row .col-lg-4 img {
+    height: 20rem;
+}
+
+
+
+
+/* ################### >->->->keyframes use for animation<-<-<-< ################### */
+
+@keyframes zoom-in-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.05, 1.05);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}

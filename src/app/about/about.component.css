@@ -1,0 +1,22 @@
+#shop-main-background-img {
+    background-image: url('https://preview.colorlib.com/theme/timezone/assets/img/hero/about_hero.png.webp');
+
+}
+
+#shop-main-background-img .container h1 {
+    padding: 10rem 0;
+    color: #0B1C39;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+#about-text-content .container .row .col-lg-8 h5 {
+    color: #000A2D;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#about-text-content .container .row .col-lg-8 p {
+    color: #464D65;
+    font-size: 14px;
+}

@@ -1,0 +1,68 @@
+#shop-main-background-img {
+    background-image: url('https://preview.colorlib.com/theme/timezone/assets/img/hero/about_hero.png.webp');
+}
+
+#shop-main-background-img .container h1 {
+    padding: 10rem 0;
+    color: #0B1C39;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.container .carousel .carousel-inner .carousel-item img {
+    height: 40rem;
+}
+
+.container h1 {
+    color: #0b1c39;
+    font-size: 40px;
+}
+
+.container div {
+    margin: 1rem 0;
+}
+
+.container p {
+    color: #707070;
+}
+
+.container-fluid .container {
+    padding: 5rem 0;
+}
+
+.container-fluid .container h1,
+.container-fluid .container p {
+    color: white;
+}
+
+.container-fluid .container h1 {
+    font-size: 32px;
+}
+
+.container-fluid .container p {
+    font-family: "Roboto", sans-serif;
+}
+
+form input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+@media (max-width:600px) {
+    .container .carousel .carousel-inner .carousel-item img {
+        height: 20rem;
+    }
+}
+
+@media (max-width:900px) {
+    .container .carousel .carousel-inner .carousel-item img {
+        height: 30rem;
+    }
+}
+
+@media (max-width:1200px) {
+    .container .carousel .carousel-inner .carousel-item img {
+        height: 35rem;
+    }
+}

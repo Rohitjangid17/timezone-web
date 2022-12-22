@@ -1,0 +1,24 @@
+.footer {
+    margin: 5rem 0;
+}
+
+.footer .container .row .col-lg-3 h5 {
+    color: #000000;
+}
+
+.footer .container {
+    color: #868C98;
+    font-weight: 400;
+}
+
+.footer .container .row .col-lg-3 p,
+.footer .container .row .col-lg-3 li a {
+    color: #868C98;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer .container .row .col-lg-3 li a:hover {
+    color: #ff2020;
+    margin-left: 8px;
+    transition: all 0.3s ease-out 0s;
+}

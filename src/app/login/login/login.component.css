@@ -1,0 +1,27 @@
+form {
+    /* padding: 2rem 3rem; */
+    height: 400px;
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form input {
+    border: 1px solid lightgray;
+}
+
+form input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+span a {
+    color: #777777;
+    font-weight: 500;
+}
+
+span a:hover {
+    color: #777777;
+}

@@ -1,0 +1,49 @@
+<section id="shop-main-background-img">
+    <div class="container">
+        <h1 class="text-center">Watch Shop</h1>
+    </div>
+</section>
+
+<section id="header-part-popular-products-service">
+    <div class="container pt-5 pb-5">
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+            <div class="d-flex flex-wrap gap-3">
+                <li>
+                    <a href="#">Newest Arrivals</a>
+                </li>
+                <li>
+                    <a href="#">Price High To Low</a>
+                </li>
+                <li>
+                    <a href="#">Most Popular</a>
+                </li>
+            </div>
+
+            <div>
+                <select class="form-select rounded-pill" aria-label="Default select example">
+                    <option selected>40 per page</option>
+                    <option value="1">50 per page</option>
+                    <option value="2">60 per page</option>
+                    <option value="3">70 per page</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- new products card -->
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mt-5" *ngFor="let newPopularProduct of newPopularData">
+                <div class="card shadow">
+                    <img src={{newPopularProduct.imageUrl}} class="card-img-top img-fluid px-3 py-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{newPopularProduct.title}}</h5>
+                        <span class="card-text">{{'$' + newPopularProduct.lessPrice}}
+                            <del class="text-danger">{{'$' + newPopularProduct.price}}</del>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<app-payment-system></app-payment-system>

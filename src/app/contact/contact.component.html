@@ -1,0 +1,66 @@
+<section id="shop-main-background-img">
+    <div class="container">
+        <h1 class="text-center">Contacts</h1>
+    </div>
+</section>
+
+<app-google-map></app-google-map>
+
+<div class="container">
+    <h2>Get in Touch</h2>
+    <div class="row align-items-center">
+        <div class="col-lg-8">
+            <form action="" #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm.value)">
+                <div class="form-group mt-4">
+                    <textarea class="form-control" name="message" cols="30" rows="6" placeholder="Enter Message"
+                        ngModel></textarea>
+                </div>
+                <span>Please type your message</span>
+
+                <div class=" d-flex gap-3 mt-4">
+                    <div class="form-group w-50">
+                        <input type="text" name="name" class="form-control py-2" placeholder="Enter your name" ngModel>
+                    </div>
+
+                    <div class="form-group w-50">
+                        <input type="text" name="email" class="form-control py-2" placeholder="Enter your email"
+                            ngModel>
+                    </div>
+                </div>
+
+                <div class="form-group mt-4">
+                    <input type="text" name="subject" class="form-control py-2" placeholder="Enter your subject"
+                        ngModel>
+                </div>
+
+                <button type="submit" class="btn secondary-button mt-4">SEND</button>
+            </form>
+        </div>
+
+        <div class="col-lg-4 pt-5 ps-5">
+            <div class="d-flex align-items-center flex-wrap gap-3">
+                <mat-icon>home</mat-icon>
+                <div>
+                    <p>Buttonwood, California.</p>
+                    <span>Rosemead, CA 91770</span>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center flex-wrap gap-3 mt-5">
+                <mat-icon>phone</mat-icon>
+                <div>
+                    <p>+91 9587683849</p>
+                    <span>Mon to Fri 9am to 6pm</span>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center flex-wrap gap-3 mt-5">
+                <mat-icon>email</mat-icon>
+                <div>
+                    <p>jangidrohit817@gmail.com</p>
+                    <span>Send us your query anytime!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

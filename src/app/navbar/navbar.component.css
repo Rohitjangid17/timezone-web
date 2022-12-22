@@ -1,0 +1,49 @@
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.navbar .container-fluid button {
+    border: 0;
+}
+
+.navbar .container-fluid button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar .container-fluid .collapse .nav-item .dropdown-menu {
+    border: 0;
+    border-top: 3px solid #ff2020;
+    box-shadow: 0 0 10px 3px rgb(0 0 0 / 5%);
+    transition: all .2s ease-out 0s;
+}
+
+.navbar .container-fluid .collapse .nav-item .dropdown-menu li a:hover {
+    background-color: white;
+    color: #ff2020;
+}
+
+.navbar .container-fluid .collapse .nav-item .dropdown-menu li a:focus {
+    color: #141517;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+    font-weight: 500;
+    color: #141517;
+}
+
+.d-flex button mat-icon {
+    background: transparent;
+    border: none;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover,
+mat-icon:hover {
+    color: #ff2020 !important;
+}
+
+mat-icon {
+    color: #000000;
+    font-size: 23px;
+    cursor: pointer;
+}

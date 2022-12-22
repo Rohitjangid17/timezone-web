@@ -1,0 +1,92 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white px-3 py-4">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/">
+            <img src="../../assets/logo/logo.webp" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link px-4" routerLinkActive="active" ariaCurrentWhenActive="page"
+                        routerLink="/">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link px-4" routerLink="/shop">Shop</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link px-4" routerLink="/about">About</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link px-4" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Latest
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item" routerLink="/product-list">Product List</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" routerLink="/product-details">Product Details</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link px-4" routerLink="/blog" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Blog
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item" href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Blog Details</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link px-4" routerLink="/pages" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Pages
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item" href="#">Login</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Cart</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Element</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Confirmation</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Product Checkout</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-4" routerLink="/contact">Contact</a>
+                </li>
+            </ul>
+
+            <div class="d-flex gap-3">
+                <mat-icon>search</mat-icon>
+                <a (click)="openDialog()">
+                    <mat-icon>person</mat-icon>
+                </a>
+                <mat-icon>shopping_cart</mat-icon>
+            </div>
+        </div>
+    </div>
+</nav>

@@ -1,1 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Chivo:wght@300;400;700;900&family=Cookie&family=Josefin+Sans:wght@100;300;400;500&family=Montserrat:wght@200;300;400;500;600;700&family=Poppins:wght@100;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Righteous&family=Roboto:wght@300;500;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Chivo:wght@300;400;700;900&family=Cookie&family=Josefin+Sans:wght@100;300;400;500&family=Montserrat:wght@200;300;400;500;600;700&family=Poppins:wght@100;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Righteous&family=Roboto:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.primary-button {
+    background-color: #4a4a4b;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.primary-button:hover {
+    background-color: #ff2020;
+    color: white;
+}
+
+.secondary-button {
+    background-color: #ff2020;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.secondary-button:hover {
+    background-color: #4a4a4b;
+    color: white;
+}
